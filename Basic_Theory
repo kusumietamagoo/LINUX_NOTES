@@ -1,0 +1,45 @@
+To work on linux on windows we can use Virtual Machine - virtual box 
+ubuntu is just a distributor
+File sytem : tree format
+/ : root directory 
+$ : represents regular user 
+hash sign : represents super user 
+/bin : absolute path (full path)
+bin : realative path
+In linux we can create multiple files with the same name , using mix of underscore and upper score charachters
+
+vim = text editor , helps to change the content of a file 
+sudo apt install vim
+to type anything we need to first press i 
+wq : to save and exit 
+:q! : does not save changes 
+
+
+USERS IN LINUX
+1) Regualr user : has all access in its own home directory , no permisions in other directories 
+2) Root/Super User : Admin / full acess in all directories
+sudo 
+using sudo.su : to switch from regular user to super user , machine will consider yo as the super user , method not recomended
+sudo apt.get update : will display all the available updates 
+sudo apt.get upgrade : will actually download all the updates in the computer 
+sudo apt install package_name
+apt : helps to install softwares
+3) Service User : services have their own account 
+
+USER PERMISSIONS 
+u-g-o ( u = user , g=group , o = other/public)
+rwx-rwx-rwx (r = read , w = write , x = execute)
+
+
+PATHS 
+1) Abosolute Path : starts with / , searches the whole computer 
+2) Relative Path : searches within the pwd only
+
+CHMOD CALCULATOR 
+read/write/execute , if permission yes , consider 1
+else 0
+acc to permissions rwx = binary form is converted to its equivalent decimal form 
+for example : 
+r-x rwx rw- 
+equvalent binary form : 101 111 110
+equivalent decimal form : 5 7 6 
