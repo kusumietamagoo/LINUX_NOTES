@@ -1,0 +1,28 @@
+
+
+ls : list all files
+ls-a : lists the hiddeb files as well
+ls-l : lists files in structured format
+ls-R : lists files and directories recursively 
+ls-r : lists files in reverse
+ls-X : sort files alphabetically by file extension
+ls-tl : list files acc to file creation date and time
+ls-g : omits group ownership column
+ls-m : lists dir contents seperated by comma 
+cd : change directory 
+pwd : present/print working directory , shows absolute path
+mkdir : makes a new directory 
+mv : moves file , deletes file from prev position syntax = mv abc.txt dir_name/
+touch : creates a blank file syntax = touch abc.txt
+cp : copy file , does not delete file from last position syntax = cp abc.txt dir_name/
+alias : assign shortcut  name to long commands
+clear : clears the terminal , van scroll up to review old commands 
+histroy : lists all the commands used previously (dont run password as command as the password will get listed in history and can pose as a security threat)
+echo : to print something on cli 
+printf"hello world\n" also prints statement on terminal/cli
+chmod: changes file mode syntax = chmod 734 file_name.txt
+ps : lists all the processes running on system 
+ps-a : lists all the background processes as well 
+kill : terminates a process syntax = kill process_ID , we can get process_Id from top/ps command
+top : displays processes which are comsuming most resources
+
