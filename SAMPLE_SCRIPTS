@@ -1,0 +1,19 @@
+#!/bin/sh
+echo " who am i taking to ?"
+read user_name
+echo "Hello $user_name"
+------------------------
+echo "today is:" `date`
+output :
+today is : 30-11-2024
+----------------------
+$echo $HOME : prints the home working directory 
+# $HOME is a global/environmental variable
+------------------------------------------------
+a = 1234
+b = `expr $a + 1`
+will perform arithemetic operation (ie 1234+1 = 1235)
+-----------------------------------------------------
+b = abc def is invalid
+b = 'abc def' is valid
+-----------------------------------------------------
