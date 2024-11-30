@@ -29,4 +29,14 @@ uname : unix name , prints info about machine/Os/kernel
 grep : serches the given file for lines containing a match to the given strings/words
 du : estimates files usage of file system/displays usage statistics
 su : runs shell with substitute user and grp id
+cut : remove sections from each line of files 
+cmp : compare two files
+cpio : store files on tapes to/from archives
+which : show full path of commands where given commands reside
+gedit : GUI text editor
+diff : shows differences between files 
+sleep : delay process for a specified amount of time 
+wait : waits for child process to terminate
+sort : sorts a file alphabetically 
+uniq : removes duplicate lines from a sorted file
 
