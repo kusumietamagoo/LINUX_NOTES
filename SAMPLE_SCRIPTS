@@ -13,6 +13,8 @@ $echo $HOME : prints the home working directory
 a = 1234
 b = `expr $a + 1`
 will perform arithemetic operation (ie 1234+1 = 1235)
+# expr supports the following :
+# +, - ,* , / , % , < , <= , == , != , >= , > , & , | , parentheses
 -----------------------------------------------------
 b = abc def is invalid
 b = 'abc def' is valid
