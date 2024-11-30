@@ -19,3 +19,28 @@ will perform arithemetic operation (ie 1234+1 = 1235)
 b = abc def is invalid
 b = 'abc def' is valid
 -----------------------------------------------------
+if date | grep "Fri"
+then
+     echo " It is Friday"
+fi
+------------------------------------------------------
+if [ "$1" == "Monday" ]
+then
+    echo "Monday"
+elif [ "$1" == "Tuesday" ]
+then
+    echo "Tuesday"
+else
+     echo "its is neither monday or tuesday"
+fi
+------------------------------------------------------
+#functions:
+sum(){
+  x='expr $1 + $2`
+  echo $x
+}
+echo "the sum of 5 and 3 is `sum 5 3` "
+---------------------------------------------------------
+
+
+
