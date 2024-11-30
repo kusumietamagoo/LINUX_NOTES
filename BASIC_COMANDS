@@ -25,4 +25,8 @@ ps : lists all the processes running on system
 ps-a : lists all the background processes as well 
 kill : terminates a process syntax = kill process_ID , we can get process_Id from top/ps command
 top : displays processes which are comsuming most resources
+uname : unix name , prints info about machine/Os/kernel
+grep : serches the given file for lines containing a match to the given strings/words
+du : estimates files usage of file system/displays usage statistics
+su : runs shell with substitute user and grp id
 
