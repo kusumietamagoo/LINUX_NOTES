@@ -50,6 +50,7 @@ insert byte from user-space intoo ringbuffer;
 wake_up_interruptible(&wq);
 return 1;
 ------------------------------------------------------------
+# read algorithm for 'stash.c'
 while(ringbuffer_is_empty){
 interruptible_sleep_on(&wq);
 if(signal_pending(current))
