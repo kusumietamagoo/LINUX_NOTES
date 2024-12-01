@@ -39,7 +39,8 @@ sum(){
   x='expr $1 + $2`
   echo $x
 }
-echo "the sum of 5 and 3 is `sum 5 3` "
+echo "the sum of 5 and 3 is `sum 5 3`"
+fi
 ---------------------------------------------------------
 # write algorithm for 'stash.c'
 while(ringbuffer_is_full){
