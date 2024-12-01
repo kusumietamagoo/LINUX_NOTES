@@ -41,6 +41,24 @@ sum(){
 }
 echo "the sum of 5 and 3 is `sum 5 3` "
 ---------------------------------------------------------
+# write algorithm for 'stash.c'
+while(ringbuffer_is_full){
+interruptible_sleep_on(&wq);
+if(signal_pending(current))
+return -EINTR;}
+insert byte from user-space intoo ringbuffer;
+wake_up_interruptible(&wq);
+return 1;
+------------------------------------------------------------
+while(ringbuffer_is_empty){
+interruptible_sleep_on(&wq);
+if(signal_pending(current))
+return -EINTR;
+}
+remove byte from ringbuffer and store to user space;
+wake_up_interruptible(&wq);
+return 1;
+---------------------------------------------------------------
 
 
 
